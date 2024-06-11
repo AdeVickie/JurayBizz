@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Poppins Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Poppins Regular"), url("Poppins-Regular.woff") format("woff");
+}
+
+/* .grid-container{
+
+} */
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+#img {
+  width: 214.08px;
+  height: 411.69px;
+}
+.circle {
+  height: 378.63px;
+  width: 378.63px;
+  align-self: center;
+}
+
+#container2 {
+  justify-self: center;
+}
+
+#grid-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
